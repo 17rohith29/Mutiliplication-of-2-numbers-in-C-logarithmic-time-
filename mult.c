@@ -31,7 +31,7 @@ int mult(int a, int b) {
     int max;
 
     if (a < 0) {
-        sign = -sign;
+        sign = -sign;//assigning negative value to variable sign
         a = -a;
     }
     if (b < 0) {
